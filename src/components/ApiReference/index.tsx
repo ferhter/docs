@@ -80,6 +80,7 @@ const ApiReference = ({
   children,
 }: ApiReferenceProps) => {
   const [response, setResponse] = useState(null);
+  const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(false);
   const [responseIndex, setResponseIndex] = useState(0);
   const { token, setToken } = useContext(ApiReferenceTokenContext);
@@ -105,6 +106,12 @@ const ApiReference = ({
             apiHost,
           }),
         });
+
+        if (response.status == 429) {
+          setErrorMsg("Not so fast, this is just a doc. Please wait a minute before you try again.")
+        } else {
+          setErrorMsg("Error with Test Request")
+        }
 
         if (!response.ok) throw new Error();
 
@@ -209,20 +216,21 @@ const ApiReference = ({
               <div className={styles.section}>
                 <div className={styles.sectionTitle}>Responses</div>
 
-                {responses.map((response, index) => (
-                  <div key={index} className={styles.section}>
-                    <div className={styles.group}>
-                      <ApiResponseField
-                        collapsible
-                        field={{
-                          type: "object",
-                          name: `${response.status} ${response.description}`,
-                          ...response.body,
-                        }}
-                      />
+                {responses &&
+                  responses?.map((response, index) => (
+                    <div key={index} className={styles.section}>
+                      <div className={styles.group}>
+                        <ApiResponseField
+                          collapsible
+                          field={{
+                            type: "object",
+                            name: `${response.status} ${response.description}`,
+                            ...response.body,
+                          }}
+                        />
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
               </div>
               <div className={styles.section}>{children}</div>
             </div>
@@ -279,7 +287,7 @@ const ApiReference = ({
                     {responseIndex === -1
                       ? response
                         ? JSON.stringify(response.body, null, 2)
-                        : "Error with Test Request"
+                        : errorMsg
                       : responses[responseIndex].body
                       ? stringifyJSON(
                           deepCompact(

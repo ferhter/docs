@@ -5440,4 +5440,64 @@ export const redirects = [
     destination: "/web3-data-api/reference/upload-folder",
     permanent: true,
   },
+  {
+    source: "/streams-api/aptos/tutorials",
+    destination: "/streams-api/aptos/tutorials/add-address-to-stream",
+    permanent: true,
+  },
+  {
+    source: "/streams-api/aptos/usage",
+    destination: "/streams-api/aptos/records",
+    permanent: true,
+  },
+  {
+    source: "/aptos/overview",
+    destination: "/streams-api/aptos/overview",
+    permanent: true,
+  },
+  {
+    source: "/web3-data-api/reference/getnftownersbyowners",
+    destination: "/web3-data-api/reference/get-nft-by-owners",
+    permanent: true,
+  },
+  {
+    source: "/web3-data-api/reference/getnftownersbycollection",
+    destination: "/web3-data-api/reference/get-nft-owners-by-collection",
+    permanent: true,
+  },
+  {
+    source: "/web3-data-api/reference/getnftownersofcollection",
+    destination: "/web3-data-api/reference/get-nft-owners-of-collection",
+    permanent: true,
+  },
+  {
+    source: "/admin-panel/user-account-creation-and-sign-in-methods",
+    destination:
+      "https://intercom-help.eu/moralis/en/articles/33379-user-account-creation",
+    permanent: true,
+  },
+  {
+    source: "/admin-panel/permission-roles",
+    destination:
+      "https://intercom-help.eu/moralis/en/articles/33348-permission-and-roles",
+    permanent: true,
+  },
+  {
+    source: "/admin-panel/account-settings",
+    destination:
+      "https://intercom-help.eu/moralis/en/articles/33347-account-settings",
+    permanent: true,
+  },
+  {
+    source: "/admin-panel/account-deletion",
+    destination:
+      "https://intercom-help.eu/moralis/en/articles/33346-account-deletion",
+    permanent: true,
+  },
+  {
+    source: "/admin-panel",
+    destination:
+      "https://intercom-help.eu/moralis/en/articles/33345-what-is-the-admin-panel",
+    permanent: true,
+  },
 ];
