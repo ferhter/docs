@@ -9,7 +9,7 @@ import ReactMarkdown from "react-markdown";
 import { Formik, Form } from "formik";
 import CodeBlock from "@theme/CodeBlock";
 import Head from "@docusaurus/Head";
-
+import qs from "qs";
 import styles from "./styles.module.css";
 
 import ApiResponseField, {
@@ -80,7 +80,6 @@ const ApiReference = ({
   children,
 }: ApiReferenceProps) => {
   const [response, setResponse] = useState(null);
-  const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(false);
   const [responseIndex, setResponseIndex] = useState(0);
   const { token, setToken } = useContext(ApiReferenceTokenContext);
@@ -93,29 +92,38 @@ const ApiReference = ({
     async (values) => {
       setLoading(true);
       try {
-        const response = await fetch("/api/exec", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({
-            method,
-            path,
-            auth: token,
-            bodyParam: filterOutEmpty(values.body),
-            queryParams: values.query,
-            pathParams: values.path,
-            apiHost,
-          }),
-        });
+        let pathReplace = path;
 
-        if (response.status == 429) {
-          setErrorMsg("Not so fast, this is just a doc. Please wait a minute before you try again.")
-        } else {
-          setErrorMsg("Error with Test Request")
+        // Replace path values (For example :address) in path
+        for (const pathValue in values.path) {
+          pathReplace = pathReplace.replace(
+            `:${pathValue}`,
+            values.path[pathValue]
+          );
         }
+        const response = await fetch(
+          [
+            apiHost,
+            pathReplace,
+            qs.stringify(values.query || {}, { addQueryPrefix: true }),
+          ].join(""),
+          {
+            method,
+            headers: {
+              accept: "application/json",
+              "content-type": "application/json",
+              "X-API-Key": `${token?.length > 0 ? token : "TEST"}`,
+              Authorization: `Bearer ${token?.length > 0 ? token : "TEST"}`,
+              "x-moralis-source": `api reference`,
+              referer: "moralis.io",
+            },
+            body: JSON.stringify(filterOutEmpty(values.body)),
+          }
+        );
 
-        if (!response.ok) throw new Error();
-
-        const body = await response.json();
+        const fetchBody = await response.json();
+        
+        const body = { status: response.status, body: fetchBody };
 
         setResponse(body);
         setResponseIndex(-1);
@@ -287,7 +295,7 @@ const ApiReference = ({
                     {responseIndex === -1
                       ? response
                         ? JSON.stringify(response.body, null, 2)
-                        : errorMsg
+                        : "Fetch response error"
                       : responses[responseIndex].body
                       ? stringifyJSON(
                           deepCompact(
