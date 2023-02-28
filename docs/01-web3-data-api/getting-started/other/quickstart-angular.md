@@ -4,6 +4,11 @@ slug: "../quickstart-angular"
 description: "This tutorial will teach you how to set up an Angular dapp that can query blockchain data such as NFTs, tokens, balances, transfers, transactions, and more from any Angular app."
 sidebar_position: 3
 ---
+
+:::caution
+This is not an SDK quickstart. It's just a demo of how to connect an Angular App to a Moralis JS Backend. That's why it's in "Other" folder.
+:::
+
 ## Introduction
 
 This tutorial shows you how to create a basic Angular dapp and use the Moralis SDK to display on-chain balances. You'll create a balances page and an [Express.js](https://expressjs.com/) API endpoint returning native and ERC20 balances for an address.

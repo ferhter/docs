@@ -1,5 +1,5 @@
 ---
-title: "Frontend SDKs"
+title: "Frontend"
 slug: "../frontend"
 sidebar_position: 3
 ---

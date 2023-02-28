@@ -1,10 +1,17 @@
 ---
-title: "Install Moralis SDK"
+title: "Moralis SDKs"
 slug: "../moralis-sdk"
-description: "Quickly and easily integrate Moralis' products into your backend with the Moralis SDK."
+description: ""
 sidebar_position: 2
 ---
 
+:::info overview
+**Moralis** offers a variety of **software development kits (SDKs)** for both the **backend** and **frontend**, giving developers a range of options for **building Dapps**.
+
+The following guides will teach you how to **quickly start using them**.
+:::
+
+/* TODO
 ## What is the Moralis SDK?
 
 With the Moralis SDK, you can implement all of Moralis' products quickly and easily in your backend. The SDK comes with numerous features, such as:
@@ -21,6 +28,20 @@ We currently support the following languages for our SDKs:
 - Python
 
 For other programming languages, you can call our API as you would for a normal REST API.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Install Moralis SDK
 
@@ -106,3 +127,4 @@ Below, you can find the possible options for the configuration:
 | formatEvmAddress | Format style for evm addresses. Possible values: `'lowercase'`, `'checksum'`                                         | `'lowercase'` | no       |
 | formatEvmChainId | Format style for chains. Possible values: `'decimal'`, `'hex'`                                                       | `'hex'`       | no       |
 | logLevel         | Level of detail for log messages. Possible values: `'verbose'`, `'debug'`, `'info'`, `'warning'`, `'error'`, `'off'` | `'info'`      | no       |
+*/

@@ -1,5 +1,5 @@
 ---
-title: "Backend SDKs"
+title: "Backend"
 slug: "../backend"
 sidebar_position: 4
 ---
