@@ -95,7 +95,7 @@ export const redirects = [
   },
   {
     source: "/docs/your-first-dapp-react",
-    destination: "/web3-data-api/quickstart-react",
+    destination: "/web3-data-api/getting-started/backend-sdks/connect-react-client",
     permanent: true,
   },
   {
