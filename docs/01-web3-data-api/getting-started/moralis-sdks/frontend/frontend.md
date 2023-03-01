@@ -4,13 +4,13 @@ slug: "../frontend"
 sidebar_position: 4
 ---
 
-//TODO not available until **Frontend API Keys** are released
+//SDK-TODO shold not be released until **Frontend API Keys** are live.
 
 :::info overview
-Using the **Moralis Frontend SDKs**, you can implement all of the **Moralis' products** quickly and easily in your **frontend**.
+Using the **Moralis Frontend SDKs**, you can **quickly access our API** in your **frontend**.
 :::
 
 :::note
-All the frontend SDKs are wrappers around the **`Moralis-JS-SDK`**. //TODO add internal link
+All our frontend SDKs are **thin wrappers** around the [Moralis-JS-SDK](/web3-data-api/getting-started/moralis-sdks/javascript-sdk).
 :::
 

@@ -4,12 +4,11 @@ slug: "../backend"
 sidebar_position: 3
 ---
 
+//SDK-TODO possibility to extend this page? Maybe more detailed features
+
 :::info overview
-Using the **Moralis Backend SDKs**, you can implement all of the **Moralis' products** quickly and easily in your **backend**.
+Using the **Moralis Backend SDKs**, you can **quickly access our API** in your **backend**.
 :::
-
-
-//TODO possibility to extend this page? Maybe more detailed features
 
 ## Features
 

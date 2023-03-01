@@ -4,7 +4,7 @@ slug: "../javascript-sdk"
 sidebar_position: 1
 ---
 
-//TODO Think about renaming the title to **Moralis JS SDK** or **Moralis SDK**
+//SDK-TODO Think about renaming the title to **Moralis JS SDK** or **Moralis SDK** but since we have more than one would go for first option.
 
 :::info overview
 This guide will teach you how to **install** and **set up** the [**Moralis-JS-SDK**](https://github.com/MoralisWeb3/Moralis-JS-SDK).
