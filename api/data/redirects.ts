@@ -90,7 +90,7 @@ export const redirects = [
   },
   {
     source: "/docs/your-first-dapp-angular",
-    destination: "/web3-data-api/getting-started/quickstart-angular",
+    destination: "/web3-data-api/getting-started/backend-sdks/connect-angular-client",
     permanent: true,
   },
   {
