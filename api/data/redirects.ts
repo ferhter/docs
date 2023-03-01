@@ -85,7 +85,7 @@ export const redirects = [
   },
   {
     source: "/docs/your-first-dapp-python",
-    destination: "/web3-data-api/quickstart-python",
+    destination: "/web3-data-api/getting-started/backend-sdks/create-python-dapp",
     permanent: true,
   },
   {
