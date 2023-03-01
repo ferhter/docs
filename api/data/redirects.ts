@@ -135,7 +135,7 @@ export const redirects = [
   },
   {
     source: "/docs/advanced-setup",
-    destination: "/web3-data-api/advanced-sdk-setup",
+    destination: "/web3-data-api/getting-started/moralis-sdks/js-sdk#advanced-setup",
     permanent: true,
   },
   {
@@ -3514,7 +3514,7 @@ export const redirects = [
   },
   {
     source: "/page/nodejs-sdk-config",
-    destination: "/web3-data-api/advanced-sdk-setup",
+    destination: "/web3-data-api/getting-started/moralis-sdks/js-sdk#advanced-setup",
     permanent: true,
   },
   {

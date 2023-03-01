@@ -1,63 +1,28 @@
 ---
-title: "Moralis SDKs"
-slug: "../moralis-sdk"
-description: ""
+title: "Python SDK"
+slug: "../python-sdk"
 sidebar_position: 2
 ---
 
-:::info overview
-**Moralis** offers a variety of **software development kits (SDKs)** for both the **backend** and **frontend**, giving developers a range of options for **building Dapps**.
+## Installation
 
-The following guides will teach you how to **quickly start using them**.
-:::
+<Tabs>
+<TabItem value="pnpm" label="pnpm" default>
 
-/* TODO
-## What is the Moralis SDK?
+```shell
+pnpm add moralis
+```
 
-With the Moralis SDK, you can implement all of Moralis' products quickly and easily in your backend. The SDK comes with numerous features, such as:
+</TabItem>
+<TabItem value="pip" label="pip">
 
-- Easily query data from the EVM and Solana API (such as block info, transaction info, NFT metadata, token prices, user balances, owner list of an NFT, etc.)
-- Web3 authentication, integrated into your own backend
-- Several utilities to transform and format data
+```shell
+pip install moralis
+```
+</TabItem>
+</Tabs>
 
-## What are the Languages Moralis Support?
-
-We currently support the following languages for our SDKs:
-
-- NodeJS
-- Python
-
-For other programming languages, you can call our API as you would for a normal REST API.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Install Moralis SDK
-
-To install Moralis SDK, use one of the following commands:
-
-import SetupMoralis from '/docs/partials/_install-moralis-sdk.mdx';
-
-<SetupMoralis node="moralis" python="moralis" />
-
-## Initialize Moralis SDK
-
-:::caution
-
-Make Sure to Store the `apiKey` Value Inside a `.env` File
-
-:::
+## Initialization
 
 To initialize the SDK, add the following code to your dapp:
 
@@ -106,6 +71,10 @@ Here, `Moralis.start`, with `apiKey` as a required input, will initialize the Mo
 
 Once the Moralis NodeJS SDK is initialized, you will be able to use all the powerful APIs provided by Moralis to build your dapps.
 
+:::caution
+Make sure to Store the `apiKey` Value Inside a `.env` File
+:::
+
 ## Configuration
 
 You can set the configuration for your Moralis instance when you call `Moralis.start(config)`. For example:
@@ -127,4 +96,3 @@ Below, you can find the possible options for the configuration:
 | formatEvmAddress | Format style for evm addresses. Possible values: `'lowercase'`, `'checksum'`                                         | `'lowercase'` | no       |
 | formatEvmChainId | Format style for chains. Possible values: `'decimal'`, `'hex'`                                                       | `'hex'`       | no       |
 | logLevel         | Level of detail for log messages. Possible values: `'verbose'`, `'debug'`, `'info'`, `'warning'`, `'error'`, `'off'` | `'info'`      | no       |
-*/
