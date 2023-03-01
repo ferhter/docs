@@ -10,6 +10,6 @@ Using the **Moralis Frontend SDKs**, you can **quickly access our API** in your 
 :::
 
 :::note
-All our frontend SDKs are **thin wrappers** around the [Moralis-JS-SDK](/web3-data-api/getting-started/moralis-sdks/javascript-sdk).
+All our frontend SDKs are **thin wrappers** around the [Moralis-JS-SDK](/web3-data-api/getting-started/backend-sdks/moralis-js-sdk).
 :::
 

@@ -125,17 +125,17 @@ export const redirects = [
   },
   {
     source: "/docs/moralis-sdk",
-    destination: "/web3-data-api/moralis-sdk",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk",
     permanent: true,
   },
   {
     source: "/docs/installation",
-    destination: "/web3-data-api/moralis-sdk",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk",
     permanent: true,
   },
   {
     source: "/docs/advanced-setup",
-    destination: "/web3-data-api/getting-started/moralis-sdks/js-sdk#advanced-setup",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk#advanced-setup",
     permanent: true,
   },
   {
@@ -1551,7 +1551,7 @@ export const redirects = [
   },
   {
     source: "/docs/introduction-to-moralis-sdk",
-    destination: "/web3-data-api/moralis-sdk",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk",
     permanent: true,
   },
   {
@@ -2187,7 +2187,7 @@ export const redirects = [
   },
   {
     source: "/docs/moralis-sdk-setup",
-    destination: "/web3-data-api/moralis-sdk",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk",
     permanent: true,
   },
   {
@@ -2212,7 +2212,7 @@ export const redirects = [
   },
   {
     source: "/docs/introduction-to-moralis-sdk",
-    destination: "/web3-data-api/moralis-sdk",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk",
     permanent: true,
   },
   {
@@ -3474,7 +3474,7 @@ export const redirects = [
   },
   {
     source: "/moralis-server/web3-sdk;",
-    destination: "/web3-data-api/moralis-sdk",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk",
     permanent: true,
   },
   {
@@ -3514,7 +3514,7 @@ export const redirects = [
   },
   {
     source: "/page/nodejs-sdk-config",
-    destination: "/web3-data-api/getting-started/moralis-sdks/js-sdk#advanced-setup",
+    destination: "/web3-data-api/getting-started/backend-sdks/moralis-js-sdk#advanced-setup",
     permanent: true,
   },
   {

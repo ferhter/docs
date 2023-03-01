@@ -117,12 +117,12 @@ However, if the API call is made through the client-side, this will expose all t
 
 It is important to note as well that if you make any Moralis API call on the frontend, storing the Moralis API key as secrets, as explained in the previous step, will not help. This is because once the API key is injected to your client-side dapp, it will likely be accessible to JS and therefore vulnerable to XSS attack.
 
-In order to avoid bad actor stealing your [Moralis API key](/web3-data-api/get-your-api-key), it is recommended that you make all Moralis API calls from the server-side. If you are integrating Moralis to your NodeJS or Python project, you can achieve that by using our backend-focused [Moralis SDK](/web3-data-api/moralis-sdk). For NextJS users, we also provide client-side package [`@moralisweb3/next`](https://github.com/MoralisWeb3/Moralis-JS-SDK/tree/main/packages/next) to call Moralis API from NextJS backend using React Hooks.
+In order to avoid bad actor stealing your [Moralis API key](/web3-data-api/get-your-api-key), it is recommended that you make all Moralis API calls from the server-side. If you are integrating Moralis to your NodeJS or Python project, you can achieve that by using our backend-focused [Moralis SDK](/web3-data-api/getting-started/backend-sdks/moralis-js-sdk). For NextJS users, we also provide client-side package [`@moralisweb3/next`](https://github.com/MoralisWeb3/Moralis-JS-SDK/tree/main/packages/next) to call Moralis API from NextJS backend using React Hooks.
 
 ## References
 
 - [Moralis API Key](/web3-data-api/get-your-api-key)
-- [Moralis SDK](/web3-data-api/moralis-sdk)
+- [Moralis SDK](/web3-data-api/getting-started/backend-sdks/moralis-js-sdk)
 - [`@moralisweb3/next`](https://github.com/MoralisWeb3/Moralis-JS-SDK/tree/main/packages/next)
 
 ## Next Steps

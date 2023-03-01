@@ -49,5 +49,5 @@ export default MoralisNextApi({ apiKey: process.env.MORALIS_API_KEY });
 ```
 
 :::tip
-Instead of just passing the `MORALIS_API_KEY` to the `MoralisNextApi` object, you can also pass a `MoralisConfig` object with [additional configuration parameters](/web3-data-api/getting-started/moralis-sdks/javascript-sdk#configuration).
+Instead of just passing the `MORALIS_API_KEY` to the `MoralisNextApi` object, you can also pass a `MoralisConfig` object with [additional configuration parameters](/web3-data-api/getting-started/backend-sdks/moralis-js-sdk#configuration).
 :::

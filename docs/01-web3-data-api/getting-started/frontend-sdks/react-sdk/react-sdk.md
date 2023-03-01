@@ -55,5 +55,5 @@ ReactDOM.render(
 ```
 
 :::tip 
-You can add [additional configuration parameters](/web3-data-api/getting-started/moralis-sdks/javascript-sdk#configuration) to the **`MoralisConfig`** object.
+You can add [additional configuration parameters](/web3-data-api/getting-started/backend-sdks/moralis-js-sdk#configuration) to the **`MoralisConfig`** object.
 :::
