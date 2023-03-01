@@ -1,6 +1,6 @@
 ---
-title: "Create NodeJS Server"
-slug: "../quickstart-nodejs"
+title: "Create NodeJS Dapp (server)"
+slug: "../create-nodejs-dapp"
 description: "This tutorial will teach you how to set up a server-side dapp that can query blockchain data, such as NFTs, tokens, balances, transfers, transactions, etc., from any NodeJS application.  \n\nThis tutorial dapp works on almost any blockchain, including Ethereum, Polygon, BNB Chain, Avalanche, Cronos, and many more!"
 sidebar_position: 1
 ---

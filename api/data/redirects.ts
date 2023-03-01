@@ -70,7 +70,7 @@ export const redirects = [
   },
   {
     source: "/docs/your-first-dapp-nodejs",
-    destination: "/web3-data-api/getting-started/quickstart-nodejs",
+    destination: "/web3-data-api/getting-started/backend-sdks/create-nodejs-dapp",
     permanent: true,
   },
   {
@@ -1574,7 +1574,7 @@ export const redirects = [
   },
   {
     source: "/docs/nodejs-dapp-from-scratch",
-    destination: "/web3-data-api/getting-started/quickstart-nodejs",
+    destination: "/web3-data-api/getting-started/backend-sdks/create-nodejs-dapp",
     permanent: true,
   },
   {
@@ -2172,7 +2172,7 @@ export const redirects = [
   },
   {
     source: "/docs/nodejs-dapp-from-scratch",
-    destination: "/web3-data-api/getting-started/quickstart-nodejs",
+    destination: "/web3-data-api/getting-started/backend-sdks/create-nodejs-dapp",
     permanent: true,
   },
   {
@@ -3494,7 +3494,7 @@ export const redirects = [
   },
   {
     source: "/moralis-server/connect-the-sdk/connect-using-node",
-    destination: "/web3-data-api/getting-started/quickstart-nodejs",
+    destination: "/web3-data-api/getting-started/backend-sdks/create-nodejs-dapp",
     permanent: true,
   },
   {
@@ -5220,7 +5220,7 @@ export const redirects = [
   },
   {
     source: "/moralis-dapp/connect-the-sdk/connect-with-js",
-    destination: "/web3-data-api/getting-started/quickstart-nodejs",
+    destination: "/web3-data-api/getting-started/backend-sdks/create-nodejs-dapp",
     permanent: true,
   },
   {
