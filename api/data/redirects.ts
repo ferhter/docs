@@ -2600,7 +2600,7 @@ export const redirects = [
   {
     source:
       "/moralis-server/getting-started/connect-the-sdk/connect-with-react",
-    destination: "/web3-data-api/getting-started/frontend-sdks/create-react-dapp",
+    destination: "/web3-data-api/getting-started/backend-sdks/connect-react-client",
     permanent: true,
   },
   {
