@@ -75,7 +75,7 @@ export const redirects = [
   },
   {
     source: "/docs/your-first-dapp-nextjs",
-    destination: "/web3-data-api/getting-started/quickstart-nextjs",
+    destination: "/web3-data-api/getting-started/frontend-sdks/create-nextjs-dapp",
     permanent: true,
   },
   {
@@ -1445,7 +1445,7 @@ export const redirects = [
   },
   {
     source: "/docs/nextjs-dapp",
-    destination: "/web3-data-api/getting-started/quickstart-nextjs",
+    destination: "/web3-data-api/getting-started/frontend-sdks/create-nextjs-dapp",
     permanent: true,
   },
   {
@@ -2177,7 +2177,7 @@ export const redirects = [
   },
   {
     source: "/docs/nextjs-dapp",
-    destination: "/web3-data-api/getting-started/quickstart-nextjs",
+    destination: "/web3-data-api/getting-started/frontend-sdks/create-nextjs-dapp",
     permanent: true,
   },
   {
@@ -2600,7 +2600,7 @@ export const redirects = [
   {
     source:
       "/moralis-server/getting-started/connect-the-sdk/connect-with-react",
-    destination: "/web3-data-api/getting-started/quickstart-nextjs",
+    destination: "/web3-data-api/getting-started/frontend-sdks/create-react-dapp",
     permanent: true,
   },
   {
