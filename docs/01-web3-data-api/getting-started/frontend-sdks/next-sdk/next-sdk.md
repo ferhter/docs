@@ -35,10 +35,19 @@ yarn add @moralisweb3/next next next-auth react react-dom
 
 ## Setting up
 
-To initialize and set up the SDK, add the following code to your dapp:
+### Create environment variables file
 
+Add a new `.env.local` file in your NextJS project's root and provide a `MORALIS_API_KEY` variable.
+
+### Create API route
+
+To use Moralis APIs in your NextJs project create a `pages/api/moralis/[...moralis].ts` file with the following code:
 ```js
 import { MoralisNextApi } from "@moralisweb3/next";
 
 export default MoralisNextApi({ apiKey: process.env.MORALIS_API_KEY });
 ```
+
+:::tip
+Instead of just passing the `MORALIS_API_KEY` to the `MoralisNextApi` object, you can also pass a `MoralisConfig` object with [additional configuration parameters](/web3-data-api/getting-started/moralis-sdks/javascript-sdk#configuration).
+:::

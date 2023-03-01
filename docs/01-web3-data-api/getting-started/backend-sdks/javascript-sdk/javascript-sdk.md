@@ -1,6 +1,5 @@
 ---
 title: "JavaScript SDK"
-slug: "../javascript-sdk"
 sidebar_position: 1
 ---
 
@@ -81,7 +80,9 @@ await Moralis.start({
 It's good practice to store the `apiKey` in a `.env` file.
 :::
 
-Apart from the `apiKey`, there are other **optional parameters** when calling **`Moralis.start(config)`**. For example:
+### Configuration
+
+Apart from the `apiKey`, you can pass **additional configuration parameters** when calling **`Moralis.start(config)`**. For example:
 
 ```javascript
 Moralis.start({

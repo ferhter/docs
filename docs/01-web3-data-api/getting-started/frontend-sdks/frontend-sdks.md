@@ -1,6 +1,5 @@
 ---
-title: "Frontend"
-slug: "../frontend"
+title: "Frontend SDKs"
 sidebar_position: 4
 ---
 

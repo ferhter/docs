@@ -35,7 +35,7 @@ yarn add  @moralisweb3/react react react-dom
 
 ## Setting up
 
-To initialize and set up the SDK, add the following code to your dapp:
+To initialize and set up the SDK, add the following code to your React app:
 
 ```js
 import React from "react";
@@ -53,3 +53,7 @@ ReactDOM.render(
   document.getElementById("root"),
 );
 ```
+
+:::tip 
+You can add [additional configuration parameters](/web3-data-api/getting-started/moralis-sdks/javascript-sdk#configuration) to the **`MoralisConfig`** object.
+:::

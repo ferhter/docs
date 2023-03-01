@@ -1,5 +1,5 @@
 ---
-title: "Quickstart Python"
+title: "Create Python Server"
 slug: "../quickstart-python"
 description: "This tutorial will teach you how to set up a server-side dapp that can query blockchain data, such as NFTs, tokens, balances, transfers, transactions, etc., from any Python application. \n\nThis tutorial dapp works on almost any blockchain, including Ethereum, Polygon, BNB Chain, Avalanche, Cronos, and many more!"
 ---

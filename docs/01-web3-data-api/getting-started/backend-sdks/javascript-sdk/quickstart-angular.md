@@ -1,7 +1,8 @@
 ---
-title: "Quickstart Angular"
+title: "Connect from Angular client"
 slug: "../quickstart-angular"
 description: "This tutorial will teach you how to set up an Angular dapp that can query blockchain data such as NFTs, tokens, balances, transfers, transactions, and more from any Angular app."
+sidebar_position: 3
 ---
 ## Introduction
 

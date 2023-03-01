@@ -1,8 +1,10 @@
 ---
-title: "Quickstart React"
+title: "Connect from React client"
 slug: "../quickstart-react"
 description: "This tutorial will teach you how to set up a React dapp that can query blockchain data such as NFTs, tokens, balances, transfers, transactions, and more from any React app."
+sidebar_position: 2
 ---
+
 ## Introduction
 
 This tutorial shows you how to create a basic React dapp and use the Moralis SDK to display on-chain balances. You'll create a balances page and an [Express.js](https://expressjs.com/) API endpoint returning native and ERC20 balances.
